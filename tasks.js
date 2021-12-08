@@ -19,3 +19,15 @@ function findMax(arr) {
 }
 
 console.log(findMax(marks));
+
+//2 удалить дубликаты из массива
+// [1, 2, 4, 4, 3]
+console.log([...new Set([1, 2, 4, 4, 3])]);
+
+//3 поменять местами
+let a = 10;
+let b = 'hello';
+
+[a, b] = [b, a];
+
+console.log(a, b);
